@@ -77,20 +77,20 @@ body {
 }
 
 
-  .square {
-    background: #313131;
-    border: 2px solid #999;
-    float: left;
-    font-size: 70px;
-    line-height: 34px;
-    height: 100px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 100px;
-    color: #fff;
-    cursor: pointer;
+.square {
+  background: #313131;
+  border: 2px solid #999;
+  float: left;
+  font-size: 70px;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  color: #fda7a7;
+  cursor: pointer;
   }
   
   .square:focus {
@@ -128,15 +128,15 @@ body {
 
 .results{
   display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 315px;
-    background: #1c8f8fe8;
-    width: 350px;
-    position: absolute;
-    margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 315px;
+  background: #1c8f8fe8;
+  width: 320px;
+  position: absolute;
+  border-radius: 18px;
 }
 
 

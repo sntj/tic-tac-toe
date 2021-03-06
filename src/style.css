@@ -87,12 +87,12 @@ body {
     font-size: 70px;
     /* font-weight: bold; */
     line-height: 34px;
-    height: 105px;
+    height: 100px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 105px;
+    width: 100px;
     color: #fff;
     cursor: pointer;
   }

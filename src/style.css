@@ -11,14 +11,14 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
+    overflow: hidden;
   }
   
   .title{
     font-size: 30px;
-    padding: 10px;
+    padding-top: 10px;
     color: aqua;
-    
-  }
+    }
 
   .restartbtn{
     cursor: pointer;
@@ -89,7 +89,7 @@ body {
   padding: 0;
   text-align: center;
   width: 100px;
-  color: #fda7a7;
+  color: #dcc2a2;
   cursor: pointer;
   }
   
@@ -104,26 +104,25 @@ body {
   .game {
     background-color: #414141;
     min-width: 350px;
-    height: 100vh;
+    height: 98vh;
     border: .5px solid #707070;
     border-radius: 15px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: start;
     align-items: center;
+    padding-top: 110px;
+
   }
   
 
   .game-board{
     min-width: 350px;
-    height: 400px;
-    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 0 25px;
-    margin-bottom: 140px;
   }
 
 .results{

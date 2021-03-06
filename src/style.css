@@ -1,0 +1,153 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+body {
+    font: 44px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    background-color: #313131;
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .title{
+    font-size: 30px;
+    padding: 10px;
+    color: aqua;
+    
+  }
+
+  .restartbtn{
+    cursor: pointer;
+    padding: 10px;
+    border: 0.5px solid #9c9b9b;
+    border-radius: 10px;
+    font-size: 18px;
+    /* margin-top: 55px; */
+    color: #68eeff;
+    background-color: #414141;
+  }
+
+.restartbtn:focus {
+    outline: none;
+}
+
+.restartbtn:active {
+    transform: translateY(1px);
+}
+
+
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 35px;
+    font-size: 20px;
+    padding: 20px;
+   
+  
+  }
+  
+#top-row .square{
+  border-top: none;
+}
+
+#bottom-row .square{
+  border-bottom: none;
+}
+#bottom-row {
+  border-left: none;
+}
+
+.board-row > .square:nth-child(1) {
+  border-left: none;
+}
+.board-row > .square:nth-child(3) {
+  border-right: none;
+}
+
+
+  .square {
+    background: #313131;
+    border: 2px solid #999;
+    float: left;
+    font-size: 70px;
+    /* font-weight: bold; */
+    line-height: 34px;
+    height: 105px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 105px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    background-color: #414141;
+    min-width: 350px;
+    height: 700px;
+    border: .5px solid #707070;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .game-board{
+    min-width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+    /* border: .5px solid #707070; */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* position: absolute; */
+    padding: 0 25px;
+    margin-bottom: 80px;
+  }
+
+.results{
+  display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 315px;
+    background: #6e9793f2;
+    width: 363px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+ 

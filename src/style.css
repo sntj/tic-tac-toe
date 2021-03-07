@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+#root{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+
+}
 
 body {
     font: 44px "Century Gothic", Futura, sans-serif;
@@ -23,12 +31,12 @@ body {
   .restartbtn{
     cursor: pointer;
     padding: 10px;
-    border: 0.5px solid #9c9b9b;
+    border: 0.5px solid #696969;
     border-radius: 10px;
     font-size: 18px;
-    /* margin-top: 55px; */
     color: #68eeff;
     background-color: #414141;
+    box-shadow: 0px 0px 5px 3px #00000000;
   }
 
 .restartbtn:focus {
@@ -89,7 +97,7 @@ body {
   padding: 0;
   text-align: center;
   width: 100px;
-  color: #dcc2a2;
+  color: #efd5b6;
   cursor: pointer;
   }
   
@@ -109,10 +117,9 @@ body {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    padding-top: 110px;
-
+    position: fixed;
   }
   
 
@@ -125,17 +132,22 @@ body {
     padding: 0 25px;
   }
 
+  .gametable{
+    margin-bottom: 115px;
+  }
+
 .results{
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 315px;
-  background: #1c8f8fe8;
+  height: 356px;
+  background: #21a4a4f2;
   width: 320px;
-  position: absolute;
+  position: fixed;
   border-radius: 18px;
+  box-shadow: 0 9px 10px -3px rgb(0 0 0 / 52%), 8px 0 10px -7px rgb(0 0 0 / 53%), -8px 0 10px -7px rgb(0 0 0 / 46%);
 }
 
 

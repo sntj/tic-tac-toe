@@ -105,7 +105,7 @@ class Board extends React.Component {
 
 
     return (
-      <div>
+      <div className="gametable">
         <div className="title">Tic-Tac-Toe</div>
         <div className="status">{status}</div>
         <div className="board-row" id="top-row">

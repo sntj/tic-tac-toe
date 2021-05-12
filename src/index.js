@@ -5,6 +5,8 @@ import './style.css';
 
 class Square extends React.Component {
   render() {
+    console.log("test")
+    
     return (
       <button
         className="square"
